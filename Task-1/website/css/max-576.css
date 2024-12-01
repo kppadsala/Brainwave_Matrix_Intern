@@ -1,0 +1,371 @@
+@media (max-width: 576px) {
+  .image img {
+    width: 863px;
+  }
+  .head_main {
+    width: 863px;
+  }
+  .header {
+    width: 863px;
+  }
+
+  /* =====================content========================= */
+  .content {
+    width: 863px;
+    top: 190px;
+  }
+
+  .content p {
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  /* =============header=================== */
+  .header {
+    width: 863px;
+    margin-top: 0px;
+    background-color: rgb(104 104 119);
+    height: 145px;
+  }
+  .head_main {
+    display: none;
+  }
+  .header h2 p {
+    margin: 0px 2px 0px 0px;
+  }
+  .header h2 {
+    width: 35%;
+    font-size: 35px;
+  }
+  .maindiv .line {
+    width: 863px;
+  }
+  .search span .fa-magnifying-glass {
+    display: none;
+  }
+  .header .listlink {
+    display: none;
+  }
+  .search .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  .search button {
+    display: none;
+  }
+  /* =============================main div======================= */
+  .maindiv .filter-bar {
+    height: 272px;
+    width: 545px;
+    top: 305px;
+    left: 140px;
+    display: flex;
+    background-color: rgba(98, 98, 112, 0.66);
+  }
+  /* =====================filter-bar1=========================== */
+  .filter-bar .bar1 {
+    width: 158px;
+    height: 272px;
+    display: block;
+    margin: 5px 0px -67px 0px;
+  }
+  .bar1 .location {
+    margin: 25px 0px 31px 40px;
+  }
+  .bar1 .property {
+    margin: 25px 0px 31px 40px;
+  }
+  .bar1 .price {
+    margin: 25px 0px 31px 40px;
+  }
+  .bar1 .bed-room {
+    margin: 25px 0px 31px 40px;
+  }
+  .bar1 .bath-room {
+    margin: 25px 0px 31px 40px;
+  }
+  /* ================filter-bar2================ */
+  .filter-bar .bar2 {
+    width: 158px;
+    height: 275px;
+    display: block;
+    margin: 5px 51px 0px 0px;
+  }
+  .bar2 .network {
+    height: 30px;
+    width: 175px;
+    line-height: 30px;
+  }
+  .bar2 .apartment {
+    height: 30px;
+    width: 175px;
+    line-height: 30px;
+    margin: 17px 0px 0px 24px;
+  }
+  .bar2 form {
+    height: 30px;
+    width: 175px;
+    line-height: 30px;
+    margin: 17px 0px 0px 24px;
+  }
+  .bar2 .bed-num {
+    height: 30px;
+    width: 175px;
+    line-height: 30px;
+    margin: 17px 0px 0px 24px;
+  }
+  .bar2 .bath-num {
+    height: 30px;
+    width: 175px;
+    line-height: 30px;
+    margin: 17px 0px 0px 24px;
+  }
+  .bar2 .search-btn {
+    height: 40px;
+    width: 275px;
+    line-height: 40px;
+    margin: 15px 0px 0px -161px;
+  }
+  .gallery {
+    width: 835px;
+    height: 1311px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery .row-1 {
+    width: 345px;
+  }
+  .location-sing {
+    font-size: 20px;
+  }
+  .house-detail span {
+    font-size: 18px;
+  }
+  .detail1 a {
+    font-size: 21px;
+  }
+  .detail2 a {
+    font-size: 21px;
+  }
+  .detail3 a {
+    font-size: 21px;
+  }
+  .detail4 a {
+    font-size: 21px;
+  }
+  .location-sign {
+    font-size: 20px;
+  }
+  /* ============pop========== */
+  .sale-rent .pop-property {
+    width: 863px;
+  }
+  /* =============more================= */
+  .more {
+    margin: 490px 0px 0px 180px;
+    height: 100px;
+    width: 480px;
+    line-height: 100px;
+  }
+  .more h1 {
+    font-size: 35px;
+  }
+  /* ==========special=========== */
+  .special {
+    height: 670px;
+    width: 835px;
+    margin-top: 65px;
+  }
+  .special img {
+    height: 670px;
+    width: 865px;
+  }
+  .special .details {
+    height: 335px;
+    width: 485px;
+    top: 2370px;
+    margin-left: 95px;
+  }
+  /* ===============asking================== */
+  .asking {
+    width: 860px;
+  }
+  .asking .ask-info h1 {
+    font-size: 40px;
+    margin: 0px 0px 25px 0px;
+    width: 300px;
+  }
+  .asking .ask-info {
+    width: 200px;
+    margin: 94px 0px 0px 45px;
+  }
+  .asking .ask-img {
+    margin: 90px 40px 0px 0px;
+  }
+  .asking img {
+    width: 350px;
+    height: 350px;
+  }
+  .asking .ask-info a {
+    font-size: 20px;
+    width: 390px;
+  }
+  /* =============count- area============= */
+  .count-area {
+    width: 863px;
+  }
+  /* ============hero-img=============== */
+  .heroimg {
+    width: 863px;
+  }
+  .container {
+    width: 500px;
+    top: 40px;
+    margin: auto;
+  }
+  .person {
+    left: 0;
+    width: 863px;
+  }
+  .person h3 {
+    font-size: 20px;
+  }
+  .person h2 {
+    font-size: 17px;
+  }
+  /* ==========AEGENT================ */
+  .aegent {
+    width: 863px;
+  }
+  .detail_aegents {
+    height: 900px;
+    width: 863px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .detail_aegents .aegent1 {
+    margin: 55px 0px 0px 65px;
+  }
+  .detail_aegents .aegent1 h4 {
+    font-size: 17px;
+  }
+  .detail_aegents .aegent1 h2 {
+    font-size: 27px;
+  }
+  .detail_aegents .aegent2 {
+    margin: 55px 0px 0px 65px;
+  }
+  .detail_aegents .aegent2 h4 {
+    font-size: 17px;
+  }
+  .detail_aegents .aegent2 h2 {
+    font-size: 27px;
+  }
+  .detail_aegents .aegent3 {
+    margin: 55px 0px 0px 65px;
+  }
+  .detail_aegents .aegent3 h4 {
+    font-size: 17px;
+  }
+  .detail_aegents .aegent3 h2 {
+    font-size: 27px;
+  }
+  .detail_aegents .aegent4 {
+    margin: 55px 0px 0px 65px;
+  }
+  .detail_aegents .aegent4 h4 {
+    font-size: 17px;
+  }
+  .detail_aegents .aegent4 h2 {
+    font-size: 27px;
+  }
+  /* ============add-property============ */
+  .add_property {
+    width: 863px;
+    margin-top: 30px;
+  }
+  .add_property .add {
+    width: 863px;
+  }
+  .add_property .add h1 {
+    font-size: 31px;
+    line-height: 200px;
+    margin-left: 20px;
+    width: 1500px;
+    font-weight: 600;
+  }
+  .footer {
+    width: 864px;
+    height: 838px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .div1 h2 {
+    font-size: 33px;
+  }
+  .footer .div1 h2 p {
+    font-size: 33px;
+    margin-top: 0px;
+  }
+  .footer .div1 .info a {
+    font-size: 22px;
+  }
+  .footer .div1 .info p {
+    font-size: 22px;
+  }
+  .footer .div1 .logo span {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .footer .div1 .logo {
+    margin-top: 25px;
+  }
+
+  .footer .div2 a {
+    font-size: 22px;
+  }
+  .footer .div2 h2 {
+    font-size: 28px;
+  }
+  .footer .div2 .links a {
+    font-size: 22px;
+  }
+  .footer .div3 {
+    margin: 40px 0px 0px 75px;
+  }
+  .footer .div3 h2 {
+    font-size: 28px;
+  }
+  .footer .div3 .links a {
+    font-size: 22px;
+  }
+  .footer .div4 {
+    margin: 40px 0px 0px 0px;
+  }
+  .footer .div4 h2 {
+    font-size: 28px;
+  }
+  .footer .div4 .links a {
+    font-size: 22px;
+  }
+  .footer .div4 input {
+    font-size: 22px;
+  }
+  .footer .div4 p {
+    font-size: 22px;
+    width: 380px;
+  }
+
+  /* ============down-footer================ */
+  .down_footer {
+    width: 863px;
+  }
+  .down_footer p {
+    font-size: 22px;
+  }
+  .down_footer span {
+    font-size: 22px;
+  }
+  .down_footer .color {
+    font-size: 22px;
+  }
+}
