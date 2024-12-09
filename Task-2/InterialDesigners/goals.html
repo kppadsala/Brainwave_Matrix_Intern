@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Goals - Interior Design</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-green-100 via-blue-50 to-purple-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 shadow-lg">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <a href="./index.html" class="text-3xl font-bold text-white hover:text-yellow-300">InteriorDesign</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-white hover:text-yellow-300 font-semibold">Home</a>
+        <a href="about.html" class="text-white hover:text-yellow-300 font-semibold">About</a>
+        <a href="product.html" class="text-white hover:text-yellow-300 font-semibold">Products</a>
+        <a href="career.html" class="text-white hover:text-yellow-300 font-semibold">Career</a>
+        <a href="./goals.html" class="text-white hover:text-yellow-300 font-semibold">Goals</a>
+
+        <a href="contact.html" class="text-white hover:text-yellow-300 font-semibold">Contact</a>
+      </div>
+      <button id="mobile-menu-btn" class="block md:hidden text-white focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="hidden bg-yellow-400 opacity-80 shadow-md">
+    <a href="#" class="block px-4 py-2 text-violet-800 font-medium hover:bg-yellow-500">Home</a>
+    <a href="./about.html" class="block px-4 py-2 text-violet-800 font-medium hover:bg-yellow-500">About</a>
+    <a href="./product.html" class="block px-4 py-2 text-violet-800 font-medium hover:bg-yellow-500">Products</a>
+    <a href="./goals.html" class="block px-4 py-2 text-violet-800 font-medium hover:bg-yellow-500">Goals</a>
+    <a href="./career.html" class="block px-4 py-2 text-violet-800 font-medium hover:bg-yellow-500">Career</a>
+
+    <a href="./contact.html" class="block px-4 py-2 text-violet-800 font-medium hover:bg-yellow-500">Contact</a>
+  </div>
+
+  <!-- Header Section -->
+  <header class="relative bg-gray-900 text-white h-96 flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1506784926709-22f1ec395907?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE91ciUyMEdvYWxzfGVufDB8fDB8fHww'); ">
+    <div class="bg-black bg-opacity-80 p-6 rounded-lg text-center">
+      <h1 class="text-5xl font-bold">Our Goals</h1>
+      <p class="mt-4 text-xl">Striving for Excellence in Interior Design</p>
+    </div>
+  </header>
+
+  <!-- Goals Section -->
+  <section class="py-16 bg-gradient-to-br from-blue-50 to-purple-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Our Vision and Goals</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Goal 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-2xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=294&dpr=2&h=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8UzdfcVNtNmFVOEF8fGVufDB8fHx8fA%3D%3D" alt="Sustainability" class="w-full h-40 object-cover rounded-t-lg">
+          <h3 class="text-2xl font-bold mt-4">Sustainability</h3>
+          <p class="mt-2 text-gray-600">Promoting eco-friendly materials and sustainable designs in every project.</p>
+        </div>
+        <!-- Goal 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-2xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1551038247-3d9af20df552?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGFyY2hpdGVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="Innovation" class="w-full h-40 object-cover rounded-t-lg">
+          <h3 class="text-2xl font-bold mt-4">Innovation</h3>
+          <p class="mt-2 text-gray-600">Leveraging technology and creativity to deliver cutting-edge designs.</p>
+        </div>
+        <!-- Goal 3 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-2xl transition-shadow">
+          <img src="https://media.istockphoto.com/id/1456618373/photo/customer-satisfaction-feedback-review-concept-hand-with-thumb-up-positive-emotion-happy-smile.jpg?s=612x612&w=0&k=20&c=w51tK6j-JJtNKfDXsXubHuatyADcQcjnPKO7YFqTSwo=" alt="Client-Centric" class="w-full h-40 object-cover rounded-t-lg">
+          <h3 class="text-2xl font-bold mt-4">Client-Centric</h3>
+          <p class="mt-2 text-gray-600">Placing clients at the core of our process to meet their unique needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg p-6 shadow-lg text-center">
+          <p class="text-gray-600 italic">"The designs exceeded our expectations and brought a touch of elegance to our space."</p>
+          <h4 class="mt-4 font-bold text-xl">- Sarah Johnson</h4>
+        </div>
+        <div class="bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg p-6 shadow-lg text-center">
+          <p class="text-gray-600 italic">"Their attention to detail and customer focus made our experience wonderful."</p>
+          <h4 class="mt-4 font-bold text-xl">- Michael Lee</h4>
+        </div>
+        <div class="bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg p-6 shadow-lg text-center">
+          <p class="text-gray-600 italic">"Highly recommend for their creative and sustainable approach to interior design."</p>
+          <h4 class="mt-4 font-bold text-xl">- Emma Brown</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-yellow-400 via-red-400 to-pink-500 text-black py-10">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8 text-center md:text-left md:px-10">
+      <!-- Contact Section -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
+        <p>Email: contact@interiordesign.com</p>
+        <p>Phone: +1 234 567 890</p>
+        <p>Address: 1234 Design Street, City, Country</p>
+      </div>
+  
+      <!-- About Section -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4">About</h3>
+        <p>At Interior Design, we strive to bring elegance and functionality into every space. Our team is dedicated to creating unique designs tailored to your needs.</p>
+      </div>
+  
+      <!-- Social Media Section -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+        <div class="flex justify-center md:justify-start space-x-4">
+          <a href="https://facebook.com" target="_blank" class="hover:text-yellow-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22.675 0h-21.35C.598 0 0 .598 0 1.325v21.351C0 23.402.598 24 1.325 24H12.82v-9.294H9.692V11.41h3.128V8.412c0-3.1 1.894-4.793 4.66-4.793 1.324 0 2.463.098 2.795.142v3.24l-1.919.001c-1.504 0-1.794.716-1.794 1.764v2.31h3.588l-.467 3.297h-3.121V24h6.116c.728 0 1.325-.598 1.325-1.324V1.325C24 .598 23.402 0 22.675 0z"/>
+            </svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="hover:text-yellow-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M24 4.557a9.793 9.793 0 01-2.828.775 4.916 4.916 0 002.165-2.723 9.832 9.832 0 01-3.127 1.195 4.904 4.904 0 00-8.343 4.463A13.933 13.933 0 011.671 3.149a4.902 4.902 0 001.515 6.544 4.873 4.873 0 01-2.223-.615v.062a4.902 4.902 0 003.934 4.808 4.902 4.902 0 01-2.213.084 4.902 4.902 0 004.575 3.401A9.837 9.837 0 010 19.54a13.89 13.89 0 007.548 2.212c9.056 0 14.01-7.496 14.01-14.01 0-.213-.005-.425-.014-.636A10.026 10.026 0 0024 4.557z"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="hover:text-yellow-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0C8.74 0 8.332.015 7.052.072 5.774.13 4.891.335 4.137.684a6.447 6.447 0 00-2.38 1.605A6.445 6.445 0 00.683 4.136C.335 4.89.13 5.774.073 7.052.015 8.332 0 8.741 0 12s.015 3.668.072 4.948c.057 1.278.262 2.161.61 2.915.347.754.811 1.406 1.605 2.379a6.445 6.445 0 002.379 1.605c.754.347 1.637.552 2.915.61C8.332 23.985 8.741 24 12 24s3.668-.015 4.948-.072c1.278-.057 2.161-.263 2.915-.61a6.447 6.447 0 002.38-1.605 6.445 6.445 0 001.604-2.379c.348-.754.552-1.637.611-2.915.056-1.28.071-1.69.071-4.948s-.015-3.668-.072-4.948c-.057-1.278-.263-2.161-.61-2.915a6.447 6.447 0 00-1.605-2.38A6.445 6.445 0 0019.052.684C18.298.335 17.416.13 16.138.072 14.858.015 14.449 0 12 0zm0 2.2c2.391 0 2.683.009 3.632.052.938.042 1.439.19 1.813.318.437.153.748.34 1.05.642.303.303.49.613.642 1.051.129.374.276.875.318 1.813.043.949.052 1.241.052 3.632s-.009 2.683-.052 3.632c-.042.938-.19 1.439-.318 1.813a2.806 2.806 0 01-.642 1.05 2.804 2.804 0 01-1.05.642c-.374.129-.875.276-1.813.318-.949.043-1.241.052-3.632.052s-2.683-.009-3.632-.052c-.938-.042-1.439-.19-1.813-.318a2.806 2.806 0 01-1.05-.642 2.804 2.804 0 01-.642-1.05c-.129-.374-.276-.875-.318-1.813C2.209 14.683 2.2 14.391 2.2 12s.009-2.683.052-3.632c.042-.938.19-1.439.318-1.813.153-.437.34-.748.642-1.051.303-.303.613-.49 1.051-.642.374-.129.875-.276 1.813-.318C9.317 2.209 9.609 2.2 12 2.2zM12 5.8a6.2 6.2 0 100 12.4A6.2 6.2 0 0012 5.8zm0 2.2a4 4 0 110 8 4 4 0 010-8zm6.4-2.8a1.4 1.4 0 110 2.8 1.4 1.4 0 010-2.8z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  <hr class="my-4">
+    <div class=" text-center">
+      <p>&copy; 2024 Interior Design. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("mobile-menu-btn").addEventListener("click", () => {
+      const menu = document.getElementById("mobile-menu");
+      menu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+</html>
